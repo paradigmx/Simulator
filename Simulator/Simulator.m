@@ -73,7 +73,7 @@ char * getpassword(char * restrict str, int size, FILE * restrict stream) {
     return [self getInputWithPrompt:prompt size:size secured:NO];
 }
 
-- (NSString *)getSecuredInputWithPrompt:(NSString *)prompt size:(int)size {
+- (NSString *)getPasswordWithPrompt:(NSString *)prompt size:(int)size {
     return [self getInputWithPrompt:prompt size:size secured:YES];
 }
 

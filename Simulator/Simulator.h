@@ -15,6 +15,6 @@
 - (BOOL)isQuitCommand:(NSString *)command;
 
 - (NSString *)getInputWithPrompt:(NSString *)prompt size:(int)size;
-- (NSString *)getSecuredInputWithPrompt:(NSString *)prompt size:(int)size;
+- (NSString *)getPasswordWithPrompt:(NSString *)prompt size:(int)size;
 - (void)output:(NSString *)message;
 @end

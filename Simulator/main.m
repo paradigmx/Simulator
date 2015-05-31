@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
         Interpreter *interpreter = [[Interpreter alloc] init];
 
         NSString *username = [simulator getInputWithPrompt:@"Enter your username" size:LOGIN_INPUT_SIZE];
-        NSString *password = [simulator getSecuredInputWithPrompt:@"Enter password" size:LOGIN_INPUT_SIZE];
+        NSString *password = [simulator getPasswordWithPrompt:@"Enter password" size:LOGIN_INPUT_SIZE];
 
         NSString *response = [interpreter loginWithUsername:username password:password];
 
